@@ -1,10 +1,11 @@
-# Ex-4-LETTER-FOLLOWED-BY-ANY-NUMBER-OF-LETTERS-OR-DIGITS-USING-YACC-USING-YACC
+## Ex-4-LETTER-FOLLOWED-BY-ANY-NUMBER-OF-LETTERS-OR-DIGITS-USING-YACC-USING-YACC
 RECOGNITION OF A VALID VARIABLE WHICH STARTS WITH A LETTER FOLLOWED BY ANY NUMBER OF LETTERS OR DIGITS USING YACC
-
+## Register Number: 212222220049
+## DATE:24.09.24
 # Aim:
 To write a YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits.
 
-# ALGORITHM:
+## ALGORITHM:
 1.	Start the program.
 2.	Write a program in the vi editor and save it with .l extension.
 3.	In the lex program, write the translation rules for the keywords int, float and double and for the identifier.
@@ -14,11 +15,7 @@ To write a YACC program to recognize a valid variable which starts with a letter
 7.	Compile these with the C compiler as gcc lex.yy.c y.tab.c
 8.	Enter a statement as input and the valid variables are identified as output.
    
-# PROGRAM:
-```
-Developed By: SRI RANJANI PRIYA P
-Reg No: 212222220049
-```
+## PROGRAM:
 ```
 %{
 /* This LEX program returns the tokens for the Expression */
@@ -67,8 +64,8 @@ yyerror(char*s)
 {
 }
 ```
-# Output:
+## Output:
 ![image](https://github.com/user-attachments/assets/4698ddb1-4df8-41b1-8467-4c40bac9e157)
 
-# Result:
+## Result:
 A YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits is executed successfully and the output is verified.
